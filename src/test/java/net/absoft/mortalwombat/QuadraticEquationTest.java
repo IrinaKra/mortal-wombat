@@ -9,8 +9,8 @@ public class QuadraticEquationTest {
 
     @Test
     public void nullTest() {
-        QuadraticEquation eq = new QuadraticEquation();
-        assertEquals(null,eq.solveEq(-4,10,-9));
+        QuadraticEquation quadraticEquation = new QuadraticEquation();
+        assertEquals(null,quadraticEquation.solveEq(-4,10,-9));
     }
 
     @Test
